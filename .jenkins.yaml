@@ -12,7 +12,7 @@ builders:
 - docker
 docker_name: sunet/argus-api-test
 docker_tags:
-- "v1.27.0_sunetbuild"
-
-# docker_build_args:
-#   BRANCH_NAME: "v1.27.0"
+- "v1.26.0_sunetbuild"
+docker_build_args: |
+  BRANCH_NAME="v1.26.0"
+  REPO_URL="https://github.com/Uninett/Argus.git"
