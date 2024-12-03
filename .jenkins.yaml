@@ -13,5 +13,6 @@ builders:
 docker_name: sunet/argus-api-test
 docker_tags:
 - "v1.27.0_sunetbuild"
-docker_build_args:
-  BRANCH_NAME: "v1.27.0"
+
+# docker_build_args:
+#   BRANCH_NAME: "v1.27.0"
